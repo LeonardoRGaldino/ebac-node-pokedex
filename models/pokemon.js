@@ -1,5 +1,4 @@
 const { Schema } = require ('mongoose')
-
 const Pokemon = new Schema ({
     id: {
         type: Number,
@@ -32,7 +31,7 @@ const Pokemon = new Schema ({
         },
         ataques:{
             type: String,
-            required: trye,
+            required: true,
         },
         estatisticas: {
             type: Object,
